@@ -105,6 +105,7 @@ namespace ParcialOscarLandivar.Controllers
         }
 
         // DELETE: api/Paises/5
+        [Authorize]
         [ResponseType(typeof(Paises))]
         public IHttpActionResult DeletePaises(string id)
         {
