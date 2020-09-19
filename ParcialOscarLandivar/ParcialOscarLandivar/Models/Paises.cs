@@ -23,10 +23,8 @@ namespace ParcialOscarLandivar.Models
         public string NativeName { get; set; }
 
 
-
-
     }
-    public class ParcialOscarLandivar
+    public class Paises
     {
         [Key]
         [Required]
@@ -45,8 +43,6 @@ namespace ParcialOscarLandivar.Models
         public List<Languajes> languajes { get; set; }
         [Required]
         public string Flags { get; set; }
-
-
 
     }
 }
